@@ -21,7 +21,7 @@
       
       <!--basic  sphere-->
       
-      <a-sphere position="0 0 3" scale="1 1 1" sq-collider="enabled: true; type: environment" color="#fcba03"></a-sphere>
+      <a-sphere position="6.396 0 6.342" scale="1.5 1.5 1.5"  sq-collider="enabled: true; type: environment" color="#fcba03"></a-sphere>
       
       <!--text message greating-->
       
