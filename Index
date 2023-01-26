@@ -28,16 +28,20 @@
     <a-text position="-4.025 2.174 -2.915" value="Wellcome To Lia Crazy Climb" color="#ffffff"  scale="2 2 2"></a-text>
       
        <!-- climb wall -->
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0 -89.7 0" position="9.939 5 0" width="20" ></a-plane>
+      
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 -89.7 0" position="9.939 7.486 0" width="20" ></a-plane>
       
         <!-- climb wall 2 -->
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0.307 0.134 -0.080" position="0 5 -9.980" width="20" ></a-plane>
+      
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0.307 0.134 -0.080" position="0 7.486 -9.980" width="20" ></a-plane>
       
         <!-- climb wall 3 -->
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0 179.946 0" position="0 5 10" width="20" ></a-plane>
+      
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 179.946 0" position="0 7.486 10" width="20" ></a-plane>
       
        <!-- climb wall 4 -->
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0 89.7 0" position="-9.950 5 0" width="20" ></a-plane>
+      
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 89.7 0" position="-9.950 7.486 0" width="20" ></a-plane>
   
       
     </a-scene>
