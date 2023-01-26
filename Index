@@ -25,7 +25,11 @@
       
       <!--test-->
       
-    <a-text position="0 1 0" value="Hello, World!"color="#b80d70"  scale="2 2 1"></a-text>
+    <a-text position="-1 1 0" value="Hello, World!" color="#b80d70"  scale="2 2 2"></a-text>
+      
+       <!-- climb wall -->
+  <a-plane color="#eb4034" sq-climbable="enabled: true" height="10" rotation="0 -50 0" position="5 0 2" width="10" ></a-plane>
+  
       
     </a-scene>
   </body>
