@@ -17,35 +17,36 @@
   
       <!--basic cube-->
       
-  <a-box position="-1 1 -3" rotation="0 45 0" color="#4CC3D9" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-box>
+  <a-box position="-1 1 -3" rotation="0 45 0" color="#4CC3D9" sq-collider="enabled: true; type: environment" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-box>
       
       <!--basic  sphere-->
       
-      <a-sphere position="0 1 3" rotation="0 45 0" color="#fcba03" animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-sphere>
+      <a-sphere position="0 0 3" scale="1 1 1" sq-collider="enabled: true; type: environment" color="#fcba03"></a-sphere>
       
-        <!--text message greating-->
+      <!--text message greating-->
       
     <a-text position="-4.025 2.174 -2.915" value="Wellcome To Lia Crazy Climb" color="#ffffff"  scale="2 2 2"></a-text>
       
        <!-- climb wall -->
       
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 -89.7 0" position="9.939 7.486 0" width="20" ></a-plane>
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0 -89.7 0" position="9.939 4.987 0" width="20" ></a-plane>
       
         <!-- climb wall 2 -->
       
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0.307 0.134 -0.080" position="0 7.486 -9.980" width="20" ></a-plane>
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0.307 0.134 -0.080" position="0 4.987 -9.980" width="20" ></a-plane>
       
         <!-- climb wall 3 -->
       
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 179.946 0" position="0 7.486 10" width="20" ></a-plane>
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0 179.946 0" position="0 4.987 10" width="20" ></a-plane>
       
        <!-- climb wall 4 -->
       
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 89.7 0" position="-9.950 7.486 0" width="20" ></a-plane>
-  
-      <!-- climb wall 5 top -->
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="10" rotation="0 89.7 0" position="-9.950 4.987 0" width="20" ></a-plane>  
       
-  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="20" rotation="90.040 180.000 0" position="0 14.936 0" width="20" ></a-plane>
+       <!-- climb wall 5 top -->
+      
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="20" rotation="90.040 180.000 0" position="0 9.950 0" width="20" ></a-plane>
+      
   
       
     </a-scene>
