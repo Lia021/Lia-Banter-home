@@ -43,6 +43,10 @@
       
   <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="15" rotation="0 89.7 0" position="-9.950 7.486 0" width="20" ></a-plane>
   
+      <!-- climb wall 5 top -->
+      
+  <a-plane color="#bfbcbb" sq-climbable="enabled: true" height="20" rotation="90.040 180.000 0" position="0 14.936 0" width="20" ></a-plane>
+  
       
     </a-scene>
   </body>
